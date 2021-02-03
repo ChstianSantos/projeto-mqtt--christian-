@@ -63,7 +63,7 @@ Serial.print("O RACK ESTA FECHADO");
 mensagem = mqttClient.publish("christian-S","FECHADO");
 Serial.println(pino2);
 mqttClient.loop();
-delay(500);
+
   
 }
 else
@@ -73,7 +73,7 @@ Serial.print("O RACK ESTA ABERTO");
 mensagem = mqttClient.publish("christian-S","ABERTO");
 Serial.println(pino2);
 mqttClient.loop();
-delay(500);
+
 
 }
 }
